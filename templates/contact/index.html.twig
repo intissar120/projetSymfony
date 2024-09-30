@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> contact </title>
+
+</head>
+<body>
+
+{% block body %}
+    first name:{{ tableau[0] }};<br>
+    last name :{{ tableau[1] }};<br>
+    address :{{ tableau[2] }};<br>
+    mail :{{ tableau[3] }};<br>
+    <a href="{{ path('app_hhh') }}">Click here</a>
+{% endblock %}
+</body>
+</html>
+
